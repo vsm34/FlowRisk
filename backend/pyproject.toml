@@ -1,0 +1,4 @@
+# FlowRisk Backend
+# This is NOT a packaged distribution - use requirements.txt for dependencies
+# Do NOT run `pip install -e .`
+

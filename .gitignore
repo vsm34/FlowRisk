@@ -61,6 +61,36 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
+# Local SQLite databases (FlowRisk dev)
+*.db
+*.sqlite
+*.sqlite3
+backend/*.db
+backend/*.sqlite
+
+# Node / Next.js
+node_modules/
+frontend/node_modules/
+
+.next/
+frontend/.next/
+
+out/
+frontend/out/
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Frontend env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+
+# Alembic runtime
+alembic/*.log
+
+
 # Flask stuff:
 instance/
 .webassets-cache
